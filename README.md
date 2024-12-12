@@ -62,7 +62,13 @@ Installing the required packages.
 pip install -r requirements.txt
 ```
 
-Running the notebook.
+Starting local MLflow Server (mlflow is the requirements.txt)
+
+```bash
+mlflow ui
+```
+
+Running the notebooks.
 
 
 ### Catboost notebook
@@ -80,3 +86,10 @@ Activating the virtual environment (on Windows).
 ```
 
 Etc.
+
+Notebooks:
+
+- [Initial analysis](./notebooks/InitialAnalysis.ipynb)
+- [Simple model](./notebooks/SimpleModel.ipynb)
+- [CatBoost (running on own environment)](./notebooks/CatBoost.ipynb)
+- [Tensorflow](./notebooks/Tensorflow.ipynb)
