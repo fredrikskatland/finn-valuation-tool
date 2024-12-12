@@ -167,3 +167,5 @@ mlruns/
 mlartifacts/
 
 .pytest_cache/
+
+app/.deployment
